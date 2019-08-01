@@ -1,0 +1,21 @@
+{
+  "name": "demo-node-bdd",
+  "version": "1.0.0",
+  "description": "a demo of bdd in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test/features -f json:test/report/cucumber_report.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Demo.Node.Bdd"
+  },
+  "author": "Todd Meinershagen",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}

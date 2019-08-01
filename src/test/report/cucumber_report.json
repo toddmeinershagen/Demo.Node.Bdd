@@ -1,0 +1,153 @@
+[
+  {
+    "description": "  In order to get the sum\n  As a user\n  I want to add two numbers",
+    "keyword": "Feature",
+    "name": "Addition",
+    "line": 1,
+    "id": "addition",
+    "tags": [],
+    "uri": "test/features/addition.feature",
+    "elements": [
+      {
+        "id": "addition;adding-numbers",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Adding Numbers",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an initial number of 100",
+            "match": {
+              "location": "test/features/support/addition_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add another number 1",
+            "match": {
+              "location": "test/features/support/addition_steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result is 101",
+            "match": {
+              "location": "test/features/support/addition_steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "addition;adding-numbers",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Adding Numbers",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an initial number of 99",
+            "match": {
+              "location": "test/features/support/addition_steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add another number 1234",
+            "match": {
+              "location": "test/features/support/addition_steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result is 1333",
+            "match": {
+              "location": "test/features/support/addition_steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "addition;adding-numbers",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Adding Numbers",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "an initial number of 12",
+            "match": {
+              "location": "test/features/support/addition_steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add another number 5",
+            "match": {
+              "location": "test/features/support/addition_steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result is 17",
+            "match": {
+              "location": "test/features/support/addition_steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
