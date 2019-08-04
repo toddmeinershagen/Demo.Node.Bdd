@@ -50,7 +50,8 @@
               "location": "test/features/support/addition_steps.js:15"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -96,8 +97,7 @@
               "location": "test/features/support/addition_steps.js:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -119,7 +119,8 @@
               "location": "test/features/support/addition_steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -141,6 +142,64 @@
             "name": "the result is 17",
             "match": {
               "location": "test/features/support/addition_steps.js:15"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  In order to get search results\n  As a user\n  I want to view the Google site",
+    "keyword": "Feature",
+    "name": "View Google Site",
+    "line": 1,
+    "id": "view-google-site",
+    "tags": [],
+    "uri": "test/features/view_google_site.feature",
+    "elements": [
+      {
+        "id": "view-google-site;viewing-search-with-results",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Viewing search with results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to 'https://www.google.com/'",
+            "match": {
+              "location": "test/features/support/view_google_site_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for 'tests'",
+            "match": {
+              "location": "test/features/support/view_google_site_steps.js:25"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the result has multiple results",
+            "match": {
+              "location": "test/features/support/view_google_site_steps.js:29"
             },
             "result": {
               "status": "passed"
