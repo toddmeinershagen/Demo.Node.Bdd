@@ -4,11 +4,11 @@
   "description": "a demo of bdd in node",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js features -f json:features/report/cucumber_report.json & npm run view-test",
+    "test": "cucumber-js features -f json:features/report/cucumber_report.json",
     "view-test": "node index.js",
     "test-perf": "cucumber-perf -r features -p plans -f summary",
-    "gen-docs": "pickles -f=features -o=../docs -df=dhtml -trfmt=cucumberjson -lr=features/report/cucumber_report.json -sn=Demo.Node.Bdd -sv=1.0.0 & npm run view-docs",
-    "view-docs": "http-server ../docs -c -1 -a localhost -o http://localhost:8080/index.html"
+    "gen-docs": "pickles -f=features -o=../docs -df=dhtml -trfmt=cucumberjson -lr=features/report/cucumber_report.json -sn=Demo.Node.Bdd -sv=1.0.0",
+    "view-docs": "http-server ../docs -c-1 -a localhost -o http://localhost:8080/index.html"
   },
   "repository": {
     "type": "git",
