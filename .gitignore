@@ -21,7 +21,7 @@ coverage
 docs
 
 # Report directory used by tools like Cucumber-JS
-src/features/reports
+src/features/report
 
 # nyc test coverage
 .nyc_output
