@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js features -f json:features/report/cucumber_report.json & node index.js",
-    "test-perf": "cucumber-perf -r .\\features -p .\\plans -f summary"
+    "test-perf": "cucumber-perf -r .\\features -p .\\plans -f summary",
+    "gen-docs": "pickles -f .\\features -o .\\..\\docs -sn Demo.Node.Bdd -sv 1.0.0 & http-server .\\..\\docs -a localhost -o http://localhost:8080/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
     "cucumber": "^5.1.0",
     "cucumber-html-reporter": "^5.0.0",
     "cucumber-perf": "^1.0.3",
+    "http-server": "^0.11.1",
     "selenium-webdriver": "^4.0.0-alpha.4"
   }
 }
