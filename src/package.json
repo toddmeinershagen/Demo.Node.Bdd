@@ -4,7 +4,8 @@
   "description": "a demo of bdd in node",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test/features -f json:test/report/cucumber_report.json"
+    "test": "cucumber-js features -f json:features/report/cucumber_report.json & node index.js",
+    "test-perf": "cucumber-perf -r .\\features -p .\\plans -f summary"
   },
   "repository": {
     "type": "git",
@@ -14,8 +15,10 @@
   "license": "Apache-2.0",
   "dependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "cucumber": "^5.1.0",
     "cucumber-html-reporter": "^5.0.0",
+    "cucumber-perf": "^1.0.3",
     "selenium-webdriver": "^4.0.0-alpha.4"
   }
 }

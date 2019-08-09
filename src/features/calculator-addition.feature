@@ -6,7 +6,7 @@ Feature: Addition
   Scenario Outline: Adding Numbers
     Given an initial number of <op1>
     When I add another number <op2>
-    Then the result is <sum>
+    Then the result should be <sum>
 
     Examples:
       | op1 |  op2 | sum  |

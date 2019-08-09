@@ -7,6 +7,10 @@ class Calculator {
         this._result += op2;
     }
 
+    subtract(op2) {
+        this._result -= op2;
+    }
+
     get result() {
         return this._result;
     }

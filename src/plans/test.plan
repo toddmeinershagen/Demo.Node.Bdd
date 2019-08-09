@@ -1,0 +1,8 @@
+Plan: test
+
+@deadsimple
+Simulation: dead simple simulation
+Group typicode-posts.feature
+	Runners: 1
+    Count: 6
+RandomWait: 00:0:02

@@ -1,6 +1,6 @@
 var { Given, When, Then } = require("cucumber");
 var should = require('chai').should()
-var Calculator = require('../../../calculator');
+var Calculator = require('../../calculator');
 
 let calculator;
 
@@ -12,6 +12,10 @@ When("I add another number {int}", function(op2) {
   calculator.add(op2);
 });
 
-Then("the result is {int}", function(sum) {
+When('I subtract another number {int}', function (op2) {
+  calculator.subtract(op2);
+});
+
+Then("the result should be {int}", function(sum) {
   calculator.result.should.equal(sum);
 });
