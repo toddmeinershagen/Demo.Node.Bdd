@@ -1,4 +1,4 @@
-@PBI2753
+@PBI2753 @api
 Feature: Typicode Posts
 
   This feature validates the posts feature of the Typicode API.

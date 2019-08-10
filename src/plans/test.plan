@@ -1,8 +1,14 @@
 Plan: test
 
-@deadsimple
-Simulation: dead simple simulation
+Simulation: multi-threaded test for typicode api
 Group typicode-posts.feature
 	Runners: 1
     Count: 6
-RandomWait: 00:0:02
+RandomWait: 00:00:02
+
+Simulation Period: multi-threaded ramp test for typicode api
+Group typicode-posts.feature
+	Threads: 6
+Time:       00:00:30
+RampUp:     00:00:10
+RampDown:   00:00:10
