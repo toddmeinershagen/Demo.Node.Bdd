@@ -13,7 +13,7 @@ let baseUrl;
 let response;
 
 Given('a valid subscription key', function () {
-    baseUrl = "https://api-quarterly.paycor.com";
+    baseUrl = process.env.BASE_URL;
     subscriptionKey = process.env.SUBSCRIPTION_KEY;
   });
 
