@@ -1,0 +1,18 @@
+{
+    "title": "Demo - BDD with NodeJS",
+    "version": "1.0",
+    "authors" : [
+      {
+        "firstName": "Todd",
+        "lastName": "Meinershagen",
+        "email": "tmeinershagen@paycor.com"
+      }
+    ],
+    "contributors": [
+      {
+        "firstName": "Tim",
+        "lastName": "O'Neil",
+        "email": "toneil@paycor.com"
+      }  
+    ]
+  }

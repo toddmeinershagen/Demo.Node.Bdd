@@ -8,7 +8,9 @@
     "view-test": "node index.js",
     "test-perf": "cucumber-perf -r features -p plans -f summary",
     "gen-docs": "pickles -f=features -o=../docs -df=dhtml -trfmt=cucumberjson -lr=features/report/cucumber_report.json -sn=Demo.Node.Bdd -sv=1.0.0",
-    "view-docs": "http-server ../docs -c-1 -a localhost -o http://localhost:8080/index.html"
+    "view-docs": "http-server ../docs -c-1 -a localhost -o http://localhost:8080/index.html",
+    "gen-book": "featurebook pdf -o ../book",
+    "view-book": "http-server ../book -c-1 -a localhost -o http://localhost:8080/specification.pdf"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "cucumber-html-reporter": "^5.0.0",
     "cucumber-perf": "^1.0.3",
     "dotenv": "^8.0.0",
+    "featurebook": "0.0.32",
     "http-server": "^0.11.1",
     "selenium-webdriver": "^4.0.0-alpha.4"
   }

@@ -1,7 +1,5 @@
 const {Given, Then, When} = require('cucumber');
 const chai = require('chai')
-    , assert = chai.assert
-    , expect = chai.expect
     , should = chai.should()
     , chaiHttp = require('chai-http');
 chai.use(chaiHttp);

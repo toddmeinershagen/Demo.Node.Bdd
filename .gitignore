@@ -20,6 +20,9 @@ coverage
 # Document directory used by tools like Pickles
 docs
 
+# Document directory used by tools like FeatureBook
+book
+
 # Report directory used by tools like Cucumber-JS
 src/features/report
 
