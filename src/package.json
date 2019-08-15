@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "a demo of bdd in node",
   "main": "index.js",
+  "bin": {
+    "cucumber-parallel": "./node_modules/cucumber-parallel/bin/cucumber-parallel"
+  },
   "scripts": {
     "test": "cucumber-js features -f json:features/report/cucumber_report.json",
+    "test-parallel": "cucumber-js features --parallel 4 -f json:features/report/cucumber_report.json",
     "view-test": "node index.js",
     "test-perf": "cucumber-perf -r features -p plans -f summary",
     "gen-docs": "pickles -f=features -o=../docs -df=dhtml -trfmt=cucumberjson -lr=features/report/cucumber_report.json -sn=Demo.Node.Bdd -sv=1.0.0",
