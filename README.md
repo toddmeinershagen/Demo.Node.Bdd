@@ -21,8 +21,14 @@ A behavioral-driven approach to testing with the node js framework.
 * Run the Performance Tests
 ```> npm run test-perf```
 
-* Generate Living Documentation
+* Generate Living Documentation (windows)
 ```> npm run gen-docs```
 
-* View the Living Documentation
+* Generate Living Documentation (mac)
+```> npm run gen-book```
+
+* View the Living Documentation (windows)
 ```> npm run view-docs```
+
+* View the Living Documentation (mac)
+```> npm run view-book```

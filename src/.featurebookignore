@@ -1,0 +1,7 @@
+report
+step_definitions
+node_modules
+plans
+*.js
+package.json
+package-lock.json
