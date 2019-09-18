@@ -16,6 +16,10 @@ When('I subtract another number {int}', function (op2) {
   calculator.subtract(op2);
 });
 
+When('I multiply another number {int}', function (op2) {
+  calculator.multiply(op2);
+});
+
 Then("the result should be {int}", function(sum) {
   calculator.result.should.equal(sum);
 });

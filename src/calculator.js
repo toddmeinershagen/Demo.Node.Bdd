@@ -11,6 +11,10 @@ class Calculator {
         this._result -= op2;
     }
 
+    multiply(op2) {
+        this._result *= op2;
+    }
+
     get result() {
         return this._result;
     }
